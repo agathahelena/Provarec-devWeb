@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*///////////////////////////////////////
+               NAVEGAÇAO
+/////////////////////////////////////*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 10vw 2vw 10vw;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    padding: 0px 40px 0px 0px ;
+}
+header nav ul li a {
+    color: rgb(114, 110, 121);
+}
+header nav ul li a.home {
+    color: black;
+}
+
+/*///////////////////////////////////////
+               BANNER
+/////////////////////////////////////*/
+
+section.banner {
+    display: flex;
+    margin: 2vw 10vw 2vw 10vw;
+}
+section.banner div {
+    margin: 5vw 10vw 2vw 10vw;
+}
+section.banner h2 {
+    font-size: 2.5rem;
+    padding: 0px 0px 20px 0px;
+}
+section.banner h2 span{
+    color: rgba(69, 143, 246, 1);
+}
+section.banner div p {
+    font-size: 1.5rem;
+    padding: 2px 0px 30px 0px ;
+    color:  rgb(114, 110, 121);
+}
+section.banner div button{
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px ;
+    background-color: rgba(69, 143, 246, 1);
+    color: white;
+}
+
+/*///////////////////////////////////////
+               MEIO
+/////////////////////////////////////*/
+
+section.meio{
+    margin: 2vw 10vw 2vw 10vw;
+}
+section.meio div.centro {
+    text-align: center;
+}
+section.meio div.centro h1 {
+    font-size: 2rem;
+    color: black;
+    border-bottom: solid black;
+    padding: 5vw 0vw 2vw 0vw ;
+}
+section.meio div.centro p {
+    padding: 2vw 0vw 5vw 0vw ;
+    font-size: 1.5;
+    color:  rgb(114, 110, 121);
+}
+section.meio div.quadrados {
+    display: flex;
+    justify-content: space-between;
+}
+section.meio div.quadrados h3 {
+    font-size: 1.5rem;
+    color: black;
+    padding: 20px 0px 10px 0px;
+    font-weight: bold;
+}
+section.meio div.quadrados p {
+    color:  rgb(114, 110, 121);
+}
+section.meio div.quadrados div.planilha {
+    border: solid gray;
+    border-radius: 20px;
+    padding: 30px 40px 30px 40px ;
+}
+section.meio div.quadrados div.maleta {
+    border: solid gray;
+    border-radius: 20px;
+    padding: 30px 40px 30px 40px ;
+}
+section.meio div.quadrados div.registro {
+    border: solid gray;
+    border-radius: 20px;
+    padding: 30px 40px 30px 40px ;
+}
+section.meio div button {
+   justify-content: center;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px ;
+    color: rgba(69, 143, 246, 1);
+    background-color: white;
+}
+
+/*///////////////////////////////////////
+               FINAL
+/////////////////////////////////////*/
+
+section.final{
+    margin: 8vw 10vw 8vw 10vw;
+    background-color:  rgba(69, 143, 246, 1);
+    border-radius: 20px;
+}
+section.final h3{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 2vw 0vw 1vw 0vw;
+    border-bottom: solid white;
+}
+section.final div.lado {
+    display: flex;
+}
+section.final div {
+    justify-content: center;
+}
+section.final div.texto p {
+    padding: 6vw 5vw 5vw 2vw ;
+    color: white;
+    font-size: 1.5rem;
+}
+section.final div.foto {
+    padding: 5vw 5vw 5vw 2vw ;
+} 
+
+/*///////////////////////////////////////
+               RODAPE
+/////////////////////////////////////*/
+
+footer{
+    background-color: rgba(69, 143, 246, 1) ;
+    display: flex;
+}
+footer div {
+    margin: 2vw 10vw 2vw 10vw;
+    justify-content: space-between;
+    color: white;
+}
+footer div.texto {
+    padding: 2vw 5vw 2vw 0vw;
+}
+footer div.texto p {
+    padding: 0vw 0vw 3vw 0vw;
+}
+footer div.lista h3 {
+    font-weight: bold;
+} 
+footer div.lista {
+    padding: 2vw 5vw 2vw 0vw;
+}
+footer div.lista ul li {
+    padding: 20px 0px 0px 0px ;
+}
+
+
